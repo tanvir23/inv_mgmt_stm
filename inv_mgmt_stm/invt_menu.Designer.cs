@@ -58,6 +58,7 @@
             this.btnStockIn.TabIndex = 1;
             this.btnStockIn.Text = "Stock In";
             this.btnStockIn.UseVisualStyleBackColor = true;
+            this.btnStockIn.Click += new System.EventHandler(this.BtnStockIn_Click);
             // 
             // lblMenuHeading
             // 
@@ -80,6 +81,7 @@
             this.btnStockOut.TabIndex = 4;
             this.btnStockOut.Text = "Stock Out";
             this.btnStockOut.UseVisualStyleBackColor = true;
+            this.btnStockOut.Click += new System.EventHandler(this.BtnStockOut_Click);
             // 
             // btnStockReturn
             // 
@@ -91,6 +93,7 @@
             this.btnStockReturn.TabIndex = 5;
             this.btnStockReturn.Text = "Return";
             this.btnStockReturn.UseVisualStyleBackColor = true;
+            this.btnStockReturn.Click += new System.EventHandler(this.BtnStockReturn_Click);
             // 
             // btnStockAccept
             // 
@@ -102,6 +105,7 @@
             this.btnStockAccept.TabIndex = 6;
             this.btnStockAccept.Text = "Accept";
             this.btnStockAccept.UseVisualStyleBackColor = true;
+            this.btnStockAccept.Click += new System.EventHandler(this.BtnStockAccept_Click);
             // 
             // btnStockReport
             // 
@@ -113,6 +117,7 @@
             this.btnStockReport.TabIndex = 7;
             this.btnStockReport.Text = "Report";
             this.btnStockReport.UseVisualStyleBackColor = true;
+            this.btnStockReport.Click += new System.EventHandler(this.BtnStockReport_Click);
             // 
             // formMenu
             // 
@@ -129,6 +134,7 @@
             this.MaximizeBox = false;
             this.Name = "formMenu";
             this.Padding = new System.Windows.Forms.Padding(20);
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Choose From Menu";
             this.Load += new System.EventHandler(this.FormMenu_Load);
             this.ResumeLayout(false);

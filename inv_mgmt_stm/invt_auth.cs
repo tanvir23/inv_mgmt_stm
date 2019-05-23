@@ -46,7 +46,7 @@ namespace inv_mgmt_stm
                 MessageBox.Show("Password can't be empty");
                 txtPassword.Focus();
             }
-            else if (userID == "adminHQ" && passwd == "123ewq")
+            else if (userID == "admin" && passwd == "123ewq")
             {
                 this.Hide();
                 formMenu fm = new formMenu();

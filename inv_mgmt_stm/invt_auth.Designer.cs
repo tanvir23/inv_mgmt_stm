@@ -116,6 +116,7 @@
             this.Controls.Add(this.lblAuthHeading);
             this.MaximizeBox = false;
             this.Name = "formLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Authentication";
             this.ResumeLayout(false);
             this.PerformLayout();
